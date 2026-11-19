@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>castelo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ─── About-specific styles ─── */
+    .about-image-wrap {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .about-image-wrap img {
+      max-width: 100%;
+      display: block;
+      image-rendering: pixelated;
+      border: 1px solid var(--fence);
+      box-shadow: 0 0 40px rgba(155, 111, 160, 0.15);
+    }
+
+    .about-text {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 15px;
+      line-height: 1.9;
+      color: var(--dust);
+      text-align: justify;
+      hyphens: auto;
+      animation: fadeIn 0.6s ease 0.1s both;
+    }
+
+    .about-text p + p {
+      margin-top: 1.4em;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+
+    <header>
+      <h1 class="site-title">castelo</h1>
+        <nav class="footer-nav">
+          <a href="index.html">Publications</a>
+          <span class="footer-sep">|</span>
+          <a href="studies.html">Study Notes</a>
+        </nav>
+    </header>
+
+    <h2 class="page-heading">About</h2>
+
+    <main>
+      <section style="animation-delay: 0.05s;">
+
+        <div class="about-text">
+          <p>
+            My name is Isadora, and I’m a penetration tester based in São Paulo 🇧🇷 with about 3 years of experience, mainly in web application security.
+          </p>
+	</div>
+	<br>	
+
+        <div class="about-image-wrap">
+        <a href="https://store.steampowered.com/app/524850/Alicemare/" target="_blank" rel="noopener noreferrer">
+          <img src="about-image.png" alt="about" /></a>
+        </div>
+
+        <div class="about-text">
+          <p>
+            I’ve worked on engagements covering web applications, Active Directory environments, wireless networks and Android apps. Outside of client work, I’m interested in CTFs, red teaming, programming and reverse engineering.
+          </p>
+          <p>
+            Rather than polished tutorials, these notes are a candid and structured record of my ongoing learning. Feel free to reach out on Twitter or LinkedIn using the buttons at the bottom of the page!
+          </p>
+        </div>
+
+      </section>
+    </main>
+
+    <footer>
+      <nav class="footer-nav">
+        <a href="https://x.com/c45t3l0" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <span class="footer-sep">|</span>
+        <a href="https://github.com/c45t3l0" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <span class="footer-sep">|</span>
+        <a href="https://www.linkedin.com/in/isadora-pavani/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <span class="footer-sep">|</span>
+        <a href="https://open.spotify.com/user/31lxr3zv4tnkl7hwx5f4d2cysy2y?si=420b443b73f144c6" target="_blank" rel="noopener noreferrer">Spotify</a>
+      </nav>
+      <small class="footer-copy">© 2026</small>
+    </footer>
+
+  </div>
+</body>
+</html>
